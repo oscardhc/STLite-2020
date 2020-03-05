@@ -46,10 +46,10 @@ public:
 		int operator-(const iterator &rhs) const {
 			//TODO
 		}
-		iterator operator+=(const int &n) {
+		iterator& operator+=(const int &n) {
 			//TODO
 		}
-		iterator operator-=(const int &n) {
+		iterator& operator-=(const int &n) {
 			//TODO
 		}
 		/**
