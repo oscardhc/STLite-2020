@@ -19,10 +19,6 @@ public:
 	}
 };
 
-/**
- * TODO
- * Please complete them.
- */
 class index_out_of_bound : public exception {
 	/* __________________________ */
 };

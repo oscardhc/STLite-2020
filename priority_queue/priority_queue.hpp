@@ -9,7 +9,6 @@ namespace sjtu {
 
 /**
  * a container like std::priority_queue which is a heap internal.
- * it should be based on the vector written by yourself.
  */
 template<typename T, class Compare = std::less<T>>
 class priority_queue {
