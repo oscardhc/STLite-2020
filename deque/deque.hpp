@@ -20,7 +20,7 @@ public:
 	public:
 		/**
 		 * return a new iterator which pointer n-next elements
-		 *   even if there are not enough elements, the behaviour is **undefined**.
+		 *   if there are not enough elements, iterator becomes invalid
 		 * as well as operator-
 		 */
 		iterator operator+(const int &n) const {
@@ -58,10 +58,12 @@ public:
 		iterator& operator--() {}
 		/**
 		 * TODO *it
+		 * 		throw if iterator is invalid
 		 */
 		T& operator*() const {}
 		/**
 		 * TODO it->field
+		 * 		throw if iterator is invalid
 		 */
 		T* operator->() const noexcept {}
 		/**
