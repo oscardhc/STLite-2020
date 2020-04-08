@@ -26,4 +26,4 @@ CS147 assignment, ACM Class, SJTU
 
 `priority_queue`(A)/`vector`(B)：3月25日（第四周周三）23:00前
 
-其余内容：4月22日（第九周周三）23:00前
+其余内容：4月22日（第八周周三）23:00前
