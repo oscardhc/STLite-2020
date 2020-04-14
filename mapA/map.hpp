@@ -46,11 +46,6 @@ public:
 			// TODO
 		}
 		/**
-		 * return a new iterator which pointer n-next elements
-		 *   even if there are not enough elements, just return the answer.
-		 * as well as operator-
-		 */
-		/**
 		 * TODO iter++
 		 */
 		iterator operator++(int) {}
